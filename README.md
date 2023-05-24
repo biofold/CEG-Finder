@@ -15,15 +15,15 @@ INTRODUCTION
 
 HOW TO RUN
 
+The use of nohup is recommended so that the process do not die even when the console gets disconnected.
+
       nohup ./Script
 
-      The use of nohup is recommended so that the process do not die even when the console gets disconnected.
 
-
-      Input files are VCF files from TCGA to be processed with Annovar.
-      First with table_annovar procedure
-      Then with convert2annovar
-      Finally with annotateVariation
+Input files are VCF files from TCGA to be processed with Annovar.
+First with table_annovar procedure
+Then with convert2annovar
+Finally with annotateVariation
 
       If we want to filter:
           python SNPFilterAnnovarFiles.py table_annovar_dir files_list.txt 19 -n 20 --maf 0.005 --filtMut --minAD 10 --minRatioAD_DP 0.05
@@ -34,4 +34,4 @@ HOW TO RUN
 
 CREATE GENE MATRIX FROM SNP DATA
 
-      After the three special cells in the contingency tables of all gene pairs are analyzed, the output is in 3cell/dataCOAD/GPairsPvaluesTop
+After the three special cells in the contingency tables of all gene pairs are analyzed, the output is in 3cell/dataCOAD/GPairsPvaluesTop
