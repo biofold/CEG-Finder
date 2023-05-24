@@ -1,0 +1,4 @@
+(cd ./annotations; nohup ./ScriptCOAD)  #annovar
+(cd ./filtersnps/; nohup ./ScriptCOAD19)  #filterSNPs
+(cd ./3cell; nohup ./Script dataCOAD) #Gene pairs contingency tables
+(cd ./survival/bin;  ./ScriptCOAD ) # Generate differences survival data 
