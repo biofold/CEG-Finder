@@ -6,7 +6,7 @@ INTRODUCTION
       Jairo Rocha, 2023.
       Scripts are licensed under the Creative Commons by NC-SA license.
 
-      Cancer Epistatic Gene Finder (CEG-Finder) scripts.
+      Cancer Epistatic Genes Finder (CEG-Finder) scripts.
 
       This script produces gene pairs related to cancer tumor.
       Download the .vcf files in the annotations/COAD/vcf directories.
